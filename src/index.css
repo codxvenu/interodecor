@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-luxury-beige-50: #FCFBF9;
+  --color-luxury-beige-100: #F6F3ED;
+  --color-luxury-beige-200: #ECE6DB;
+  --color-luxury-beige-300: #DDD2C0;
+  --color-luxury-gold-100: #F7EAD3;
+  --color-luxury-gold-300: #E6CB9E;
+  --color-luxury-gold-400: #D4B478;
+  --color-luxury-gold-500: #C19D5A;
+  --color-luxury-gold-600: #9E7D40;
+  --color-luxury-charcoal: #111111;
+  --color-luxury-charcoal-light: #222222;
+  --color-luxury-charcoal-muted: #555555;
+}
+
+@layer base {
+  body {
+    @apply antialiased select-none transition-colors duration-500;
+  }
+  
+  /* Elegant scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-luxury-beige-50 dark:bg-luxury-charcoal;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-luxury-gold-500/30 hover:bg-luxury-gold-500/50 rounded-sm;
+  }
+}
+
+/* Custom serif italic typography stylings */
+.text-serif-italic {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
+}
