@@ -69,7 +69,7 @@ export default function App() {
   const mainStats = [
     { value: "500+", label: "Completed Projects", desc: "Private estates, corporate halls & boutique retreats" },
     { value: "150+", label: "Luxury Homes Designed", desc: "Custom penthouses, seaside villas & organic cabins" },
-    { value: "50+", label: "Commercial Places", desc: "Showrooms, prestigious boardroom clusters & flagship retail" },
+    { value: "55+", label: "Commercial Spaces", desc: "Showrooms, prestigious boardroom clusters & flagship retail" },
     { value: "15+", label: "Years Experience", desc: "Decades of bespoke architectural design and coordination" },
     { value: "98%", label: "Client Satisfaction", desc: "Stunning retention with top-tier global reviews" }
   ];
@@ -330,7 +330,7 @@ export default function App() {
                   Design Rooted In Elegance.
                 </h3>
                 <p className="text-sm md:text-base text-luxury-charcoal/70 dark:text-luxury-beige-200 font-sans font-light leading-relaxed">
-                  Founded upon principles of strict classical symmetry, exquisite material procurement, and timeless European craftsmanship, Atelier Interiors has spent decades configuring spaces of quiet authority. Our methodology departs from generic modern fads – we compose residences and boutiques that are tailored to the resident’s unique biological flow.
+                  Founded upon principles of strict classical symmetry, exquisite material procurement, and timeless European craftsmanship, Atelier Interiors has spent decades crafting environments of quiet luxury. Our methodology focuses on enduring quality over passing trends—we design custom residences and commercial spaces tailored to a client’s aesthetic goals, daily rituals, and physical comfort.
                 </p>
 
                 {/* Grid of specifications (as requested by prompt) */}
